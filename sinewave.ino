@@ -1,4 +1,5 @@
 /* 50Hz generator , pure sinewave*/
+
 #define SIG1_PIN 2
 #define SIG2_PIN 3
 #define period 200
@@ -11,14 +12,9 @@ const float table[100]={0.01,0.06,0.13,0.19,0.25,0.31,0.37,0.43,
 0.68,0.64,0.59,0.54,0.48,0.43,0.37,0.31,0.25,0.19,
 0.13,0.06};
 
-float table_10[]={0.01,0.31,0.59,0.81,0.95,0.99,0.95,0.81,0.59,0.31};
-
 float table1[50]; 
 int table2[50];
 int table_inv[50];
-long time1;
-long time2;
-long time3;
 
 int state=0;
 
