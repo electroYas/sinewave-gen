@@ -1,3 +1,4 @@
+/* 50Hz generator , pure sinewave*/
 #define SIG1_PIN 2
 #define SIG2_PIN 3
 #define period 200
